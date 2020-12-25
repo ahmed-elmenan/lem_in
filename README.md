@@ -16,11 +16,11 @@ I used an [Edmonds-Karp](https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algo
 make
 
 ### Installation
-> make
+`make`
 This will create the lem-in executable
 
 ### Usage
-> ./lem-in < maps/bouchon
+`./lem-in < maps/bouchon`
 
 ## Matplotlib Visualizer
 _________________ 
@@ -32,4 +32,4 @@ Built with python3
 [matplotlib](https://matplotlib.org/)
 
 Read from stdin:
-> ./lem-in < test_maps/gen-flow-thousand-00 | python3 draw_graph.py
+`./lem-in < test_maps/gen-flow-thousand-00 | python3 draw_graph.py`
