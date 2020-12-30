@@ -34,3 +34,4 @@ Read from stdin:<br/>
 ```./lem-in < test_maps/gen-flow-thousand-00 | python3 visualisator/draw_graph.py```
 
 ![plot](https://github.com/ahel-men/lem_in/blob/main/screenshots/Screen%20Shot%202020-12-25%20at%2010.31.18%20AM.png)
+Other projects will be published soon.
