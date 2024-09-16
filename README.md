@@ -9,7 +9,7 @@ Minimize the number of turns required to move all ants from start to end
 ## lem-in
  
 ### Algorithm
-I used [Edmonds-Karp](https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm) algorithm for managing the flow,  breadth-first search ([BFS](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/#:~:text=BFS%20is%20a%20traversing%20algorithm,the%20next%2Dlevel%20neighbour%20nodes.)) for getting the shortest path and reconstructed a list of potential paths based on the residual graph
+using [Edmonds-Karp](https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm) algorithm for managing the flow,  breadth-first search ([BFS](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/#:~:text=BFS%20is%20a%20traversing%20algorithm,the%20next%2Dlevel%20neighbour%20nodes.)) for getting the shortest path and reconstructed a list of potential paths based on the residual graph
 
 ### Dependencies
 make
